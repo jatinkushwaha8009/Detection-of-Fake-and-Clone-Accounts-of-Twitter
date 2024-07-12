@@ -1,0 +1,77 @@
+<html>
+<head>
+<style>
+ 
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: blue;
+   font-size: 45px
+}
+
+p {
+  text-indent: 20px;
+  text-align: justify;
+  letter-spacing: 1px;
+   font-size: 35px;
+}
+ .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+ 
+.container {
+  max-width: 2050px;
+  font-size: 34px;
+  font-weight: 500;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://images.unsplash.com/photo-1553356084-58ef4a67b2a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=640&q=80);
+}
+  
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Abstract</h1>
+  <p>Online Social Network (OSN) is a network hub
+where people with similar interests or real world relationships
+interact. As the popularity of OSN is increasing, the security and
+privacy issues related to it are also rising. Fake and Clone profiles
+are creating dangerous security problems to social network users.
+Cloning of user profiles is one serious threat, where already
+existing user’s details are stolen to create duplicate profiles and
+then it is misused for damaging the identity of original profile
+owner. They can even launch threats like phishing, stalking,
+spamming etc. Fake profile is the creation of profile in the name
+of a person or a company which does not really exist in social
+media, to carry out malicious activities. In this paper, a detection
+method has been proposed which can detect Fake and Clone
+profiles in Twitter. Fake profiles are detected based on set of
+rules that can effectively classify fake and genuine profiles. For
+Profile Cloning detection two methods are used. One using
+Similarity Measures and the other using C4.5 decision tree
+algorithm. In Similarity Measures, two types of similarities are
+considered Similarity of Attributes and Similarity of Network
+relationships. C4.5 detects clones by building decision tree by
+taking information gain into consideration. A comparison is made
+to check how well these two methods help in detecting clone
+profiles. 
+ </P>
+  
+ 
+
+ <input type="button" class= "button"onclick="window.location.href='{{url_for('upload')}}';" value="NEXT" />
+ </div>
+</body>
+
+</html>
